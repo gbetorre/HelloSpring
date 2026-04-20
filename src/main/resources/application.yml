@@ -1,0 +1,23 @@
+server:
+  port: 8080
+  error:
+    # Disable default Spring Boot error page/whitelabel to always 
+    # rely on our GlobalExceptionHandler
+    include-message: always
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  application:
+    name: springtest
+  jackson:
+    # ISO-8601 formatting for Instants/LocalDateTimes
+    serialization:
+      write-dates-as-timestamps: false
+
+# Useful logging level for development
+logging:
+  level:
+    com.example.springtest: DEBUG
