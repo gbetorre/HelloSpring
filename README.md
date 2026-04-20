@@ -20,6 +20,8 @@ In my experience, although Tomcat server is a dependency (a library) included in
 
 Clone the repository, either via the terminal or using a third-party tool.
 
+![Cloning the repo](img/clone.png)
+
 ### Test the app
 
 Finally, open a terminal, browse to the main dir containing the project and run:
@@ -28,9 +30,19 @@ Finally, open a terminal, browse to the main dir containing the project and run:
 mvn spring-boot:run
 ```
 
-If everything is good, the address: http://localhost:8080/web/greetings will show a form like this:
+![Starting boot project](img/mvn_spring-boot.png)
 
-By entering any String, and submitting, the app says Hello:
+If everything went good, the address: http://localhost:8080/web/greetings will show a form like this:
+
+![Web application asking for a name](img/webapp-1.png)
+
+By entering any String, and submitting... 
+
+![Entering the name](img/webapp-2.png)
+
+...the app says Hello:
+
+![Greetings](img/webapp-3.png)
 
 Obviously, this feature is only for demonstration purposes and is intended solely to verify that the application is up and running properly.
 
