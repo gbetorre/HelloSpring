@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 9080
   error:
     # Disable default Spring Boot error page/whitelabel to always 
     # rely on our GlobalExceptionHandler
