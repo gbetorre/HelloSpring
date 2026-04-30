@@ -32,7 +32,7 @@ mvn spring-boot:run
 
 ![Starting boot project](img/mvn_spring-boot.png)
 
-If everything went good, the address: http://localhost:8080/web/greetings will show a form like this:
+If everything went good, the address: http://localhost:9080/web/greetings will show a form like this:
 
 ![Web application asking for a name](img/webapp-1.png)
 
