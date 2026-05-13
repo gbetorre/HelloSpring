@@ -52,7 +52,7 @@ From here, you can add and customize your own code.
 
 ### About the port
 
-As for the specified port, I updated the project configuration so that it listens on port 9080 instead of port 8080 (unlike what is shown in the screenshots before).
+As for the specified port, I [updated the project configuration](https://github.com/gbetorre/HelloSpring/commit/be05632db7fc983972ed94d68b3223bb2a44b920) so that it listens on port 9080 instead of port 8080 (unlike what is shown in the screenshots before).
 
 You’ll therefore need to enter the address: http://localhost:9080/web/greetings instead of the one shown above.
 
@@ -60,4 +60,4 @@ I thought this was the right choice because it’s very likely that, on a develo
 
 Personally, I like to use the port 9080 - and I’ve been doing so since before [Netflix](https://github.com/rsaxvc/rsaxvc.net.blagr/blob/master/input/posts/Hacking/NetflixPlayerApi.blagr) even existed... ;-)
 <br>
-Enjoy and have fun with Spring!
+Enjoy it and have fun with Spring!
